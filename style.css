@@ -74,6 +74,7 @@ h1 {
 .item_list li {
   cursor: pointer;
   word-wrap: break-word;
+  font-weight: 600;
 }
 
 .item_list li span {

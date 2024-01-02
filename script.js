@@ -19,6 +19,11 @@ const todoFunc = () => {
 };
 
 document.querySelector(".btn").addEventListener("click", todoFunc);
+document.querySelector(".input_text").addEventListener("keydown", function (e) {
+  if (e.key == "Enter") {
+    todoFunc();
+  }
+});
 
 document.querySelector(".item_list").addEventListener("click", function (e) {
   //   underlined list && remove list
